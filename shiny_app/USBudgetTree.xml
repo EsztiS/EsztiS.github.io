@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="TreeMapID10ea63f5a067" />
+  <Content type="html">
+  <![CDATA[ 
+   <!-- TreeMap generated in R 3.2.1 by googleVis 0.5.9 package -->
+<!-- Tue Jul  7 20:00:05 2015 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+
+
+// jsData 
+function gvisDataTreeMapID10ea63f5a067 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "TotalBudget",
+null,
+99675605,
+18.41743152 
+],
+[
+ "Corporation Income Taxes",
+"TotalBudget",
+20522658,
+16.8370401 
+],
+[
+ "Customs Duties",
+"TotalBudget",
+1141887,
+13.94819272 
+],
+[
+ "Estate and Gift Taxes",
+"TotalBudget",
+2016370,
+14.51680942 
+],
+[
+ "Excise Taxes",
+"TotalBudget",
+12534130,
+16.34396588 
+],
+[
+ "Individual Income Taxes",
+"TotalBudget",
+45571090,
+17.63478408 
+],
+[
+ "Legislative Proposals",
+"TotalBudget",
+0,
+-Inf 
+],
+[
+ "Misc. Governmental Receipts",
+"TotalBudget",
+843046,
+13.6447768 
+],
+[
+ "Social Insurance Taxes and Contributions",
+"TotalBudget",
+17046424,
+16.651451 
+],
+[
+ "Corporation Income Taxes",
+"Corporation Income Taxes",
+20522658,
+16.8370401 
+],
+[
+ "Custom Duties and Fees",
+"Customs Duties",
+1141887,
+13.94819272 
+],
+[
+ "Estate and Gift Taxes",
+"Estate and Gift Taxes",
+2016370,
+14.51680942 
+],
+[
+ "Excise Taxes",
+"Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Federal Fund Excise Taxes",
+"Excise Taxes",
+9585440,
+16.07575584 
+],
+[
+ "Trust Fund Excise Taxes",
+"Excise Taxes",
+2948690,
+14.89687156 
+],
+[
+ "Individual Income Taxes",
+"Individual Income Taxes",
+45571090,
+17.63478408 
+],
+[
+ "Legislative Proposals",
+"Legislative Proposals",
+0,
+-Inf 
+],
+[
+ "Misc. Governmental Receipts",
+"Misc. Governmental Receipts",
+843046,
+13.6447768 
+],
+[
+ "Employment Taxes and Contributions",
+"Social Insurance Taxes and Contributions",
+12834873,
+16.36767648 
+],
+[
+ "Other Retirement Contributions",
+"Social Insurance Taxes and Contributions",
+875037,
+13.68202145 
+],
+[
+ "Unemployment Insurance",
+"Social Insurance Taxes and Contributions",
+3336514,
+15.02043711 
+],
+[
+ "Environmental Protection Agency",
+"Corporation Income Taxes",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Corporation Income Taxes",
+20522658,
+16.8370401 
+],
+[
+ "Corps of Engineers--Civil Works",
+"Custom Duties and Fees",
+0,
+-Inf 
+],
+[
+ "Department of Agriculture",
+"Custom Duties and Fees",
+0,
+-Inf 
+],
+[
+ "Department of Homeland Security",
+"Custom Duties and Fees",
+0,
+-Inf 
+],
+[
+ "Department of the Interior",
+"Custom Duties and Fees",
+0,
+-Inf 
+],
+[
+ "Department of the Treasury",
+"Custom Duties and Fees",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Custom Duties and Fees",
+1141887,
+13.94819272 
+],
+[
+ "Governmental Receipts",
+"Estate and Gift Taxes",
+2016370,
+14.51680942 
+],
+[
+ "Department of Homeland Security",
+"Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of the Interior",
+"Federal Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of the Treasury",
+"Federal Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Transportation",
+"Federal Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Federal Fund Excise Taxes",
+9585440,
+16.07575584 
+],
+[
+ "Corps of Engineers--Civil Works",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Agriculture",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Health and Human Services",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Labor",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Transportation",
+"Trust Fund Excise Taxes",
+2948690,
+14.89687156 
+],
+[
+ "Environmental Protection Agency",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Patient-Centered Outcomes Research Trust Fund",
+"Trust Fund Excise Taxes",
+0,
+-Inf 
+],
+[
+ "Department of Health and Human Services",
+"Individual Income Taxes",
+0,
+-Inf 
+],
+[
+ "Department of the Treasury",
+"Individual Income Taxes",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Individual Income Taxes",
+45571090,
+17.63478408 
+],
+[
+ "Governmental Receipts",
+"Legislative Proposals",
+0,
+-Inf 
+],
+[
+ "Affordable Housing Program",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Bureau of Consumer Financial Protection",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Christopher Columbus Fellowship Foundation",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Corporation for Travel Promotion",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Corps of Engineers--Civil Works",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Agriculture",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Commerce",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Defense--Military Programs",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Energy",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Health and Human Services",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Homeland Security",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Housing and Urban Development",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Justice",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Labor",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of State",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of the Interior",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of the Treasury",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "District of Columbia",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Electric Reliability Organization",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Environmental Protection Agency",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Federal Communications Commission",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Federal Deposit Insurance Corporation",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Federal Drug Control Programs",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Federal Financial Institutions Examination Council",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Federal Housing Finance Agency",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Misc. Governmental Receipts",
+843046,
+13.6447768 
+],
+[
+ "Judicial Branch",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Legislative Branch",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Other Defense Civil Programs",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Public Company Accounting Oversight Board",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Securities and Exchange Commission",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Securities Investor Protection Corporation",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Social Security Administration",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Standard Setting Body",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "United Mine Workers of America Benefit Funds",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "United States Court of Appeals for Veterans Claims",
+"Misc. Governmental Receipts",
+0,
+-Inf 
+],
+[
+ "Department of Health and Human Services",
+"Employment Taxes and Contributions",
+0,
+-Inf 
+],
+[
+ "Railroad Retirement Board",
+"Employment Taxes and Contributions",
+564264,
+13.24327751 
+],
+[
+ "Social Security Administration",
+"Employment Taxes and Contributions",
+12270609,
+16.32271745 
+],
+[
+ "Department of State",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "District of Columbia",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "Governmental Receipts",
+"Other Retirement Contributions",
+862583,
+13.66768666 
+],
+[
+ "Judicial Branch",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "Legislative Branch",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "Office of Personnel Management",
+"Other Retirement Contributions",
+12454,
+9.429797135 
+],
+[
+ "Other Defense Civil Programs",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "United States Court of Appeals for Veterans Claims",
+"Other Retirement Contributions",
+0,
+-Inf 
+],
+[
+ "Department of Labor",
+"Unemployment Insurance",
+3336514,
+15.02043711 
+],
+[
+ "Railroad Retirement Board",
+"Unemployment Insurance",
+0,
+-Inf 
+] 
+];
+data.addColumn('string','categoryid');
+data.addColumn('string','parentid');
+data.addColumn('number','values');
+data.addColumn('number','values.log');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsDrawChart
+function drawChartTreeMapID10ea63f5a067() {
+var data = gvisDataTreeMapID10ea63f5a067();
+var options = {};
+options["width"] =    600;
+options["height"] =    500;
+
+
+    var chart = new google.visualization.TreeMap(
+    document.getElementById('TreeMapID10ea63f5a067')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "treemap";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTreeMapID10ea63f5a067);
+})();
+function displayChartTreeMapID10ea63f5a067() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsFooter
+</script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTreeMapID10ea63f5a067"></script>
+
+
+<!-- divChart -->
+  
+<div id="TreeMapID10ea63f5a067" 
+  style="width: 600; height: 500;">
+</div>
+
+  ]]> 
+  </Content>
+</Module>
