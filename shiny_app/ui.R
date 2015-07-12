@@ -17,9 +17,16 @@ shinyUI(fluidPage(
                   label = 'Index',
                   choices = names(receipts)[r_indices])
               ),
+        column(3,
+               selectInput("inSelect", 
+                           label = "Select panes",
+                           multiple = TRUE,
+                           c('N O   I N P U T'))
+        ),
       submitButton('Submit')
               ),
-      plotOutput('plotr')
+      plotOutput('plotr'),
+      plotOutput('plotr_yrs')
     ),
     
     tabPanel('Outlays',
