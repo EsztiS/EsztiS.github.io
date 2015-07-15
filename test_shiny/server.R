@@ -18,8 +18,7 @@ shinyServer(function(input, output, session) {
     )
     output$plot1 <- renderPlot({
       y = colSums(receipts[(receipts[ ,pane] == input$inSelect), r_years])
-      #print(paste('index: ',pane))
-      #print(paste('selected: ', input$inSelect))
+      print(y)
       qplot(1:length(y), y, 
             main = input$inSelect,
             xlab = 'Year',

@@ -21,19 +21,19 @@ account <- aggregate(list(account.value=accounts$X1962),
 
 the.money <- data.frame(categoryid=c('TotalBudget',
                                     as.character(bea$bea),
-                                    as.character(agency$agency),
-                                    as.character(bureau$bureau),
-                                    as.character(account$account)),
+                                    as.character(agency$agency)),
+                                    #as.character(bureau$bureau),
+                                    #as.character(account$account)),
                        parentid=c(NA,
                                   rep('TotalBudget',length(unique(accounts$BEA.Category))),
-                                  as.character(agency$bea),
-                                  as.character(bureau$agency),
-                                  as.character(account$bureau)),
+                                  as.character(agency$bea)),
+                                  #as.character(bureau$agency),
+                                  #as.character(account$bureau)),
                        values=c(sum(accounts$X1962),
                                 bea$bea.value,
-                                agency$agency.value,
-                                bureau$bureau.value,
-                                account$account.value))
+                                agency$agency.value))
+                                #bureau$bureau.value,
+                                #account$account.value))
 
 #the.money2=the.money[!duplicated(the.money$category),]
 the.money$colors=the.money$values+1
