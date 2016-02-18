@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.navbar-custom {
+    background-color: #174785;
+}
+.navbar-custom .navbar-brand {
+  color: #7FFFD4;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #7FFFD4;
+}
+.navbar-custom .nav > li > a:focus, .nav > li > a:hover {
+  background-color: #000000;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  color: #7FFFD4;
+  background-color: #174785;
+  border-color: #174785;
+ }
+
+.btn
+{
+  color: #7FFFD4;
+  background-color: #174785;
+  border-color: #174785;
+}
+
