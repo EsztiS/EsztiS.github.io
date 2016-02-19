@@ -1,9 +1,9 @@
 # TOXIC_DOCS_INSIGHT
 
 ## DESCRIPTION
-This code is for creating an LDA topic model (Latent Dirichlet Allocation, python gensim package) to explore the [TOXIC DOCS PROJECT](http://www.toxicdocs.org) dataset via an interactive website. _You will need to have a MongoDB server running for the flask website to connect to_.
+This code is for creating an LDA topic model (Latent Dirichlet Allocation, python gensim package) to explore the [TOXIC DOCS PROJECT](http://www.toxicdocs.org) dataset via an interactive website.
 
-There are two database dumps. One dump contains the pre-processed fields so that the flask interactive website works out-of-the-box. The other contains the original database with one text field, which is the OCR'ed result from the PDF and TIFF document images (Optical Character Recognition). This text field was pre-processed with the scripts in the scripts directory to produce the additional fields: 'words', 'non-words' and 'bow.' The text preprocessing was run on an AWS ubuntu 14.01 medium server. Should you want to run the scripts yourself, please see the bottom for instructions on how to install the necessary packages. The requirements.txt file works on OS X (specifically tested on El Capitan 10.11.3).
+The database contains one text field, which is the OCR'ed result from the PDF and TIFF document images (Optical Character Recognition). This text field was pre-processed with the scripts in the scripts directory to produce the additional fields: 'words', 'non-words' and 'bow.' The text preprocessing was run on an AWS ubuntu 14.01 medium server. Should you want to run the scripts yourself, please see the bottom for instructions on how to install the necessary packages. The requirements.txt file works on OS X (specifically tested on El Capitan 10.11.3).
 
 ## OS X INSTRUCTIONS
 
