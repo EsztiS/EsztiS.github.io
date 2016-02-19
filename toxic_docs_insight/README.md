@@ -32,12 +32,11 @@ If you wish to run the preprocessing steps on the raw text fields using an AWS s
 + $ sudo apt-get install ipython
 + $ sudo -H pip install pymongo
 + $ sudo -H pip install nltk
- In python, >> nltk.download() to pick which corpora to install. Only need stop words. <http://blog.adlegant.com/how-to-install-nltk-corporastopwords/>
-
 + $ sudo apt-get install libenchant1c2a
-+ sudo -H pip install pyenchant
++ $ sudo -H pip install pyenchant
++ In python, >> nltk.download() to pick which corpora to install. Only need stop words. <http://blog.adlegant.com/how-to-install-nltk-corporastopwords/>
 
-+ $ To install SCIPY, which you need for gensim, all the following must be installed:
++ To install SCIPY, which you need for gensim, all the following must be installed:
 <http://stackoverflow.com/questions/15777836/how-to-install-scipy-on-ec2-server>
 + $ sudo pip install numpy
 + $ sudo apt-get install gfortran
