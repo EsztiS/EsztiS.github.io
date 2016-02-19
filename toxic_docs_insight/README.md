@@ -1,32 +1,32 @@
-# TOXIC_DOCS_INSIGHT
+## [TOXIC_DOCS_INSIGHT](http://www.toxicdocsinsight.org)
 
-## DESCRIPTION
+### DESCRIPTION
 This code is for creating an LDA topic model (Latent Dirichlet Allocation, python gensim package) to explore the [TOXIC DOCS PROJECT](http://www.toxicdocs.org) dataset via an interactive website.
 
-The database contains one text field, which is the OCR'ed result from the PDF and TIFF document images (Optical Character Recognition). This text field was pre-processed with the scripts in the scripts directory to produce the additional fields: 'words', 'non-words' and 'bow.' The text preprocessing was run on an AWS ubuntu 14.01 medium server. Should you want to run the scripts yourself, please see the bottom for instructions on how to install the necessary packages. The requirements.txt file works on OS X (specifically tested on El Capitan 10.11.3).
+The database contains a __text__ field, which is the OCR'ed result from the PDF and TIFF document images (Optical Character Recognition). This text field was pre-processed with the scripts in the scripts directory to produce the additional fields: 'words', 'non-words' and 'bow.' The text preprocessing was run on an AWS ubuntu 14.01 medium server. At the bottom are instructions on how to install the necessary packages. The requirements.txt file works on OS X El Capitan 10.11.3.
 
-## OS X INSTRUCTIONS
+### OS X INSTRUCTIONS
 
-### MONGODB
-Follow instructions on either website and then change ownership of directory
+#### MONGODB
+To install, follow instructions on either website and then change ownership of directory.
 <http://blog.troygrosfield.com/2011/03/21/installing-and-running-mongodb-on-a-mac/>
 <https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/>
 $ sudo chown -R `id -u` /data/db
 
-### PYTHON PACKAGES
+#### PYTHON PACKAGES
 Please use the requirements.txt. See here for instructions on working with virtual environments:
 <http://flask.pocoo.org/docs/0.10/installation/>
 
-### RUNNING WEBSITE
+#### RUNNING WEBSITE
 Keep directory structure (there are relative paths in the code). From the command line, in the flask directory, run run.py ($ python run.py). Copy/paste address into a browser (it is printed to console) and enjoy!
 
-## AmazonWebServices UBUNTU 14.01 INSTRUCTIONS
+### AmazonWebServices UBUNTU 14.01 INSTRUCTIONS
 If you wish to run the preprocessing steps on the raw text fields using an AWS server, requirements.txt will not work. Certain libraries need other libraries pre-installed. Here is a list of steps:
 
-### MONGODB:
+#### MONGODB:
 <https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/>
 
-### PYTHON PACKAGES
+#### PYTHON PACKAGES
 sudo apt-get install python-pip python-dev build-essential
 sudo -H pip install --upgrade pip
 sudo apt-get install ipython
