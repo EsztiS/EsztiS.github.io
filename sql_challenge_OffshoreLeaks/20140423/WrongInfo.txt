@@ -1,0 +1,6 @@
+https://dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html#function_str-to-date
+
+SELECT STR_TO_DATE('00/00/0000', '%m/%d/%Y');
+        -> '0000-00-00'
+        
+In reality returns NULL since the range is 01-01-0001
